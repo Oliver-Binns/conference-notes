@@ -4,7 +4,7 @@
     @PageImage(purpose: icon, source: "2026-ARCtic")
 }
 
-10.-12. February, Oulu, Finland
+February 10–12, Oulu (Finland)
 
 ## Topics
 

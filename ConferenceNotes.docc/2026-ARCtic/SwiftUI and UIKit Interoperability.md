@@ -25,8 +25,8 @@ When adopting SwiftUI, it's very common to mix it with UIKit, either to be able 
 Using SwiftUI as a default, like UIKit is a default over CoreAnimation & Metal for most apps.
 Using UIKit doesn't mean we're writing legacy code.
 
-UIKit -> UIViewRepresentable / UIViewControllerRepresentable -> SwiftUI
-SwiftUI -> UIHostingController / UIHostingConfiguration -> UIKit
+UIKit → UIViewRepresentable / UIViewControllerRepresentable → SwiftUI
+SwiftUI → UIHostingController / UIHostingConfiguration → UIKit
 
 ### Connecting SwiftUI data to UIKit based controls
 

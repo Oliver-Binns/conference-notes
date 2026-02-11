@@ -19,19 +19,17 @@ Fix by attaching to the upper-most view.
 
 - Be careful when you add searchable. It can't be attached to the upper-most view.
 
-- `Compiler is unable to render in time` -> most of the time the problem is you.
+- `Compiler is unable to render in time` → most of the time the problem is you.
 
 - Apple docs say you need to access `isSearching` from inside the searched view, rather than its parent.
 
-### []
-
 #### Flash updated regions
 
-Xcode -> Debug -> View Debugging -> Rendering -> Flash Updated Regions
+Xcode → Debug → View Debugging → Rendering → Flash Updated Regions
 
 Only works on a real device.
 
-Demonstration: multiple pickers in a single view -> all pickers are updated when scrolling and updating the state.
+Demonstration: multiple pickers in a single view → all pickers are updated when scrolling and updating the state.
 
 A state change _can_ cause SwiftUI to re-evaluate the entire view.
 It's really important to split SwiftUI views into separate scopes: extract into new reusable view.

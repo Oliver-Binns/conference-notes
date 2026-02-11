@@ -10,7 +10,7 @@ The most important part of any app is its users. If they're not engaged, your ap
 
 ### Habit Loop
 
-Cue -> Action -> Reward -> Cue
+Cue → Action → Reward → Cue
 
 Reward triggers dopamine.
 Next cue then triggers a craving.
@@ -30,7 +30,7 @@ Show progress, not just totals.
 Social visibility
 
 Endowment effect - users overvalue what they already have.
--> Current streak is irreplaceable, even though an new one can be started.
+→ Current streak is irreplaceable, even though an new one can be started.
 
 ### Achievements:
 
