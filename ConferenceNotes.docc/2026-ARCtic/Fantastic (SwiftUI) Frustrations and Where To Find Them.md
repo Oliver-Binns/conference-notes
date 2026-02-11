@@ -2,7 +2,11 @@
 
 Danijela Vrzan
 
-SwiftUI _looks_ easy.
+## Abstract
+
+SwiftUI has redefined the way we build user interfaces across Apple platforms. While its declarative syntax is powerful, it's not without challenges. In this talk, we will dive into the common frustrations developers face when using SwiftUI, such as unexpected behavior and the constraints of state management. Using real-world examples, we'll highlight these challenges and offer practical strategies to overcome them, emphasizing the importance of breaking down views into smaller components.
+
+You'll leave equipped to navigate SwiftUI more effectively, leveraging its strengths and transforming frustrations into opportunities for better app design and a smoother user experience.
 
 ## Key Takeaways
 

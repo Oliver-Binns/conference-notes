@@ -2,7 +2,15 @@
 
 Frederik Riedel
 
-Saving 3000 years every single week from scrolling.
+## Abstract
+
+In this talk, I explain how I scaled my app "one sec" from 1 user to 1 Million hourly active users in the past 5 years. And all that without any investor money or loans.
+
+What started as an experiment for myself, became a $150k MRR project over the years – helping millions of users save thousands of years from scrolling *every single week*.
+
+How did I get there?
+
+I will show you my strategies and how I took advantage of being indie to marketize my project to a broader audience.
 
 ## Key Takeaways
 

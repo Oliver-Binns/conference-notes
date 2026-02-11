@@ -2,8 +2,9 @@
 
 Michael Flarup
 
-Making things has never been easier.
-Standing out has never been harder.
+## Abstract
+
+After two decades of building everything from app icons to books to games, I've learned that what lasts isn't efficiency or optimization, but the details that spark joy. In this talk I'll share stories from my own work to show how personality and emotional design turn ordinary products into memorable ones, and why that extra effort matters.
 
 ## Key Takeaways
 

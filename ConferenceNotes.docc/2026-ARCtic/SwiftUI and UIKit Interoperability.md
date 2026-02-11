@@ -2,6 +2,10 @@
 
 John Sundell
 
+## Abstract
+
+When adopting SwiftUI, it's very common to mix it with UIKit, either to be able to use existing UIKit components, to work around SwiftUI issues and missing features, or to handle tasks like navigation and coordination. In this talk, John will explore how we can make the most out of the SwiftUI + UIKit interoperability APIs, how to ensure that SwiftUI's layout system works well with tools like Auto Layout, how pass configuration properties, events, and data between the two UI frameworks in a smooth way, and much more.
+
 ## Key Takeaways
 
 ### Somewhat mixed experience?

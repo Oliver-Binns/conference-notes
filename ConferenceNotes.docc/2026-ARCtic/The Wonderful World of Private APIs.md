@@ -2,18 +2,9 @@
 
 Quentin Fasquel
 
-> Why join the navy when you can be a pirate?
-> - Steve Jobs
+## Abstract
 
-This talk does **not** cover:
-- Jailbreak
-- Getting through App Store Review
-
-Why should you care about private APIs?
-- Educational Curiosity
-- System integration
-- Visual effects
-- Developer tools (RocketSim)
+Ever wondered what Apple keeps behind the velvet rope? Let's sneak a peek at private APIs, see how we can reach them from Swift and Objective-C, and uncover some of the magic that powers iOS behind the scenes.
 
 ## Key Takeaways
 

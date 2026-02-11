@@ -2,6 +2,10 @@
 
 Janina Kutyn
 
+## Abstract
+
+The most important part of any app is its users. If they're not engaged, your app will be off their phones faster than it got there. In this talk, we'll cover practical, industry-proven strategies to increase user engagement and ensure your users keep coming back.
+
 ## Key Takeaways
 
 ### Habit Loop
