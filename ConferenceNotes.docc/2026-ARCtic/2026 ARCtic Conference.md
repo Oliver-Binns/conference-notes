@@ -8,6 +8,8 @@ February 10–12, Oulu (Finland)
 
 ## Topics
 
+### Talks
+
 - <doc:Automating-Accessibility>
 - <doc:Create-a-Custom-Control-with-SwiftUI>
 - <doc:Driving-User-Engagement-in-your-App>
@@ -22,3 +24,12 @@ February 10–12, Oulu (Finland)
 - <doc:Visualizing,-Organizing,-and-Tidying-your-Codebase>
 - <doc:What's-AI-Good-For>
 - <doc:Why-Would-You-Automate-That>
+
+### Workshops
+
+- <doc:Build-Your-Own-ID-Verifier>
+- <doc:CloudKit-From-Zero-to-Sync>
+- <doc:Convert-Previews-into-Snapshot-Tests>
+- <doc:Crafting-SwiftUI-Components-the-Apple-Way>
+- <doc:Mastering-Swift-Concurrency>
+- <doc:Unleashing-Shortcuts>
