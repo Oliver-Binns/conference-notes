@@ -6,9 +6,12 @@ This repository contains my personal notes from various technical conferences, t
 
 | Conference | Date | Location | Topics | Notes |
 |------------|------|----------|--------|-------|
-| Arctic26 | January 2026 | Oulu, Finland | iOS, Swift | [View Notes](./Arctic26.docc) |
+| ARCtic | February 2026 | Oulu, Finland | iOS, Swift | [View Notes](./ConferenceNotes.docc/2026-ARCtic) |
 
 ## How to Use These Notes
+
+### Viewing Online
+Browse the rendered documentation on [GitHub Pages](https://oliver-binns.github.io/conference-notes/).
 
 ### Viewing on GitHub
 The notes are organized in `.docc` folders, which you can browse directly on GitHub by clicking through the folders above.
@@ -22,11 +25,14 @@ For the best reading experience with full DocC features:
 ### Viewing as Documentation
 You can build and preview the documentation locally:
 ```bash
-# Navigate to a conference folder
-cd Arctic26.docc
+# Build the documentation
+xcrun docc convert ConferenceNotes.docc \
+  --fallback-display-name "Conference Notes" \
+  --fallback-bundle-identifier com.oliver-binns.conference-notes \
+  --output-path docs
 
 # Preview in Xcode's documentation viewer
-open -a Xcode .
+open -a Xcode ConferenceNotes.docc
 ```
 
 ## Contributing
