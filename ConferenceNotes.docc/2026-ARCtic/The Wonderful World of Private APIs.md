@@ -15,13 +15,15 @@ Why should you care about private APIs?
 - Visual effects
 - Developer tools (RocketSim)
 
-## Trying to recreate the camera app in SwiftUI
+## Key Takeaways
+
+### Trying to recreate the camera app in SwiftUI
 
 Internal SFSymbols are present in the simulator private frameworks
 `SFSCoreGlyphsBundle`
 `camera.nightmode`
 
-### How to use a private Objective-C API?
+#### How to use a private Objective-C API?
 
 Declare the header-file of the private APIs and it should compile:
 `#import "_UIAssetManager.h"`
@@ -36,7 +38,7 @@ or a runtime look-up:
 Class bundleClass = NSClassFromString(@"SFSCoreGlyphsBundle");
 ```
 
-### How to *find* a private Objective-C API?
+#### How to *find* a private Objective-C API?
 
 `YourObject.h`
 `YourObject+Private.h`
@@ -74,7 +76,7 @@ Not type-safe, but available as a package from Quentin.
 `CAMeshTransform`
 `CAMutableMeshTransform`
 
-## What about Swift?
+### What about Swift?
 Swift doesn't have header files? So how do we find private Swift APIs?
 
 `swiftmodule`:

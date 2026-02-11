@@ -4,7 +4,9 @@ Frederik Riedel
 
 Saving 3000 years every single week from scrolling.
 
-## Why is it important to keep investors out?
+## Key Takeaways
+
+### Why is it important to keep investors out?
 
 You will end up having to prioritise profit over user impact.
 VC Money leads to enshitification.
@@ -14,7 +16,7 @@ Impact & users > profit.
 We need to strike a balance between quality and visibility.
 You need both.
 
-## How to get started?
+### How to get started?
 
 Solving my own problems.
 
@@ -25,6 +27,6 @@ Solving my own problems.
 
 Ship ASAP.
 
-## Don't make ads - tell interesting stories!
+### Don't make ads - tell interesting stories!
 
 
