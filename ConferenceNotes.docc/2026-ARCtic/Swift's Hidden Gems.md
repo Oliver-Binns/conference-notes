@@ -1,5 +1,9 @@
 # Swift's Hidden Gems: Practical Techniques for Any Codebase
 
+@Metadata {
+    @TitleHeading("Talk")
+}
+
 Natalia Panferova
 
 ## Abstract

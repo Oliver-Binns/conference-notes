@@ -1,5 +1,9 @@
 # Why the F#@ Would You Automate That? A Love Letter to Over-Engineering from a nerd
 
+@Metadata {
+    @TitleHeading("Talk")
+}
+
 Noam Efergan
 
 ## Abstract

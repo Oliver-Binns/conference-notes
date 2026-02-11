@@ -1,5 +1,9 @@
 # What's AI Good For? (Probably not that, but not nothing.)
 
+@Metadata {
+    @TitleHeading("Talk")
+}
+
 Rob Napier
 
 ## Abstract

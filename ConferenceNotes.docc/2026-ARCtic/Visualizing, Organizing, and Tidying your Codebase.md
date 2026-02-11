@@ -1,5 +1,9 @@
 # Visualizing, Organizing, and Tidying your Codebase
 
+@Metadata {
+    @TitleHeading("Talk")
+}
+
 Dan Wood
 
 ## Abstract

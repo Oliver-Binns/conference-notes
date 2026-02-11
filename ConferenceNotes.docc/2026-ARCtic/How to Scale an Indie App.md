@@ -1,5 +1,9 @@
 #  How to Scale an Indie App (without Investors)
 
+@Metadata {
+    @TitleHeading("Talk")
+}
+
 Frederik Riedel
 
 ## Abstract

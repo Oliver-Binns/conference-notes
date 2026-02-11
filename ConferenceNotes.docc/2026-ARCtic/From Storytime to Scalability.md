@@ -1,5 +1,9 @@
 # From Storytime to Scalability: Growing an iOS Team at Yoto
 
+@Metadata {
+    @TitleHeading("Talk")
+}
+
 Niamh Power
 
 ## Abstract

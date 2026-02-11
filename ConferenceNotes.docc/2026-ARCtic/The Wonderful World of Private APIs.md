@@ -1,5 +1,9 @@
 #  The Wonderful World of Private APIs
 
+@Metadata {
+    @TitleHeading("Talk")
+}
+
 Quentin Fasquel
 
 ## Abstract

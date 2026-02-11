@@ -1,5 +1,9 @@
 # Create a custom control with SwiftUI
 
+@Metadata {
+    @TitleHeading("Talk")
+}
+
 Andrew Walker
 
 ## Abstract

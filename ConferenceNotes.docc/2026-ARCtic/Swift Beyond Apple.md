@@ -1,5 +1,9 @@
 # Swift Beyond Apple - Building Android Apps & Backends in Swift
 
+@Metadata {
+    @TitleHeading("Talk")
+}
+
 Joannis Orlandos
 
 ## Abstract

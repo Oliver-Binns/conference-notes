@@ -1,5 +1,9 @@
 #  SwiftUI + UIKit Interoperability - Beyond the Basics
 
+@Metadata {
+    @TitleHeading("Talk")
+}
+
 John Sundell
 
 ## Abstract

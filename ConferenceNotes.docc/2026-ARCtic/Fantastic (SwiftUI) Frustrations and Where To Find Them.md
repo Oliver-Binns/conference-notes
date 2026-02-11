@@ -1,5 +1,9 @@
 #  Fantastic (SwiftUI) Frustrations and Where to Find Them
 
+@Metadata {
+    @TitleHeading("Talk")
+}
+
 Danijela Vrzan
 
 ## Abstract
