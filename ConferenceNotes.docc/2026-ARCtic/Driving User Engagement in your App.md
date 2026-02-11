@@ -1,5 +1,6 @@
 #  Driving User Engagement in your App
-## Janina Kutyn
+
+Janina Kutyn
 
 ## Habit Loop
 

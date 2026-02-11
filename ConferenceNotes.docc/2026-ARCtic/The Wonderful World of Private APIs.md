@@ -1,5 +1,6 @@
 #  The Wonderful World of Private APIs
-## Quentin Fasquel
+
+Quentin Fasquel
 
 > Why join the navy when you can be a pirate?
 > - Steve Jobs

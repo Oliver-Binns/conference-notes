@@ -1,5 +1,6 @@
 #  Fantastic (SwiftUI) Frustrations and Where to Find Them
-## Danijela Vrzan
+
+Danijela Vrzan
 
 SwiftUI _looks_ easy.
 

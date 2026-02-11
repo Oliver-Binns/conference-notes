@@ -1,5 +1,6 @@
 # Making Things People Remember
-## Michael Flarup
+
+Michael Flarup
 
 Making things has never been easier.
 Standing out has never been harder.

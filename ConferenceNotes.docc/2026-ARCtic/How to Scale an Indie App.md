@@ -1,5 +1,6 @@
 #  How to Scale an Indie App (without Investors)
-## Frederik Riedel
+
+Frederik Riedel
 
 Saving 3000 years every single week from scrolling.
 
