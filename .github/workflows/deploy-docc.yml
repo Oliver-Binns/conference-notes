@@ -1,0 +1,44 @@
+name: Deploy DocC
+
+on:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build DocC
+        run: |
+          xcrun docc convert ConferenceNotes.docc \
+            --fallback-display-name "Conference Notes" \
+            --fallback-bundle-identifier com.oliver-binns.conference-notes \
+            --output-path docs \
+            --hosting-base-path conference-notes
+
+      - name: Create root redirect
+        run: |
+          echo '<meta http-equiv="refresh" content="0; url=documentation/conference-notes">' > docs/index.html
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
