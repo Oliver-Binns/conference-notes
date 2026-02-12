@@ -90,3 +90,7 @@ Other examples:
 - Dead code detection
 - Code signing using Fastlane matc
 - Effortless release notes
+
+## Links
+
+- [Blog](https://nowham.dev/)

@@ -41,4 +41,6 @@ Ship ASAP.
 
 ### Don't make ads - tell interesting stories!
 
+## Links
 
+- [one sec - Apple App Store](https://apps.apple.com/app/one-sec-screen-time-focus/id1532875441)

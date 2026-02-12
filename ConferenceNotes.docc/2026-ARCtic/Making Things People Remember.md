@@ -78,3 +78,8 @@ Don't just ship features, orchestrate moments.
 
 You are absolutely **not** guaranteed success.
 But you may have changed the odds in your favour.
+
+## Links
+
+- [Dinolords - Steam](https://store.steampowered.com/app/2587620/Dinolords/)
+- [The App Icon Books](https://flarup.shop/)

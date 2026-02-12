@@ -84,3 +84,7 @@ TBD file (Text-Base stub)
 
 `swiftdemangle`?
 
+## Links
+
+- [The Wonderful World of Private APIs](https://blog.quentinfasquel.com/private-apis/)
+
