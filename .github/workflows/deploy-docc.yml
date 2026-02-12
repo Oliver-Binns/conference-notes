@@ -26,9 +26,9 @@ jobs:
         run: |
           xcrun docc convert ConferenceNotes.docc \
             --fallback-display-name "Conference Notes" \
-            --fallback-bundle-identifier com.oliver-binns.conference-notes \
+            --fallback-bundle-identifier com.github.${{ github.repository_owner }}.${{ github.event.repository.name }} \
             --output-path docs \
-            --hosting-base-path conference-notes
+            --hosting-base-path ${{ github.event.repository.name }}
 
       - name: Create root redirect
         run: |
