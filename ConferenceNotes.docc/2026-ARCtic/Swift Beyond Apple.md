@@ -65,3 +65,7 @@ WebAssembly
 Run Swift in web browsers: ElementaryUI
 Cloud-Hosted Plugins
 Microcontrollers
+
+## Links
+
+- [WendyOS](https://wendy.sh/)

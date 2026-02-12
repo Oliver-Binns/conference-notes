@@ -13,3 +13,8 @@ Shortcuts have been part of Apple's ecosystem since 2017, yet many developers ba
 ## Key Takeaways
 
 -
+
+## Links
+
+- [Työkalu - App Intents Starter Project](https://github.com/bennokress/Tyokalu)
+- [Workshop Material](https://github.com/bennokress/Tyokalu/blob/main/Workshop%20Material/README.md)

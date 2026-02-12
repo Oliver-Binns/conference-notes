@@ -17,3 +17,7 @@ AI is not particularly good at most of the things your boss probably wants it fo
 ## Key Takeaways
 
 -
+
+## Links
+
+-
