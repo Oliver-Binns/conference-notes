@@ -45,7 +45,7 @@ let voucherCode: String? = "TDSAW-FAWER"
 voucherCode..take()
 ```
 
-Switch on multiple optionals simulataneous:
+Switch on multiple optionals simultaneously:
 
 ```swift
 switch (puppyAgeInMonths, puppyWeightInKg) {
@@ -116,7 +116,7 @@ let description = "The dog's age is \(age, default: "unknown")."
 Define custom string interpolation
 
 ```swift
-extention String.StringInterpolation {
+extension String.StringInterpolation {
     ...
 }
 ```
@@ -129,10 +129,10 @@ extension TrackerCoordinates: CustomStringConvertible {
 }
 ```
 
-Allow custom types to be initialized with literal values.
+Allow custom types to be initialised with literal values.
 
 ```swift
-extension EnergyLevel: ExpressibleByIntergerLiteral {
+extension EnergyLevel: ExpressibleByIntegerLiteral {
     init(integerLiteral v: Int) { 
         ...
     }
@@ -145,6 +145,7 @@ Enable range creation for custom types:
 extension TimeSlot: Comparable {
     ...
 }
+```
 
 Transform your types into callable entities
 
@@ -162,4 +163,4 @@ struct TrainingDiet {
 
 ## Links
 
-- [Blog](nilcoalescing.com/blog/ARCtic2026)
+- [Blog](http://nilcoalescing.com/blog/ARCtic2026)

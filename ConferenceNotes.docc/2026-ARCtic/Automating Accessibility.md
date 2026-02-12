@@ -38,15 +38,18 @@ Some people need keyboard shortcuts.
 Making your app accessible is making it usable.
 Give your users the tools to decide for themselves.
 
+We need to provide features we do not use ourselves.
+
 ### Where does that leave our work?
 
-The software always changes:
+The software always changes, and accessibility needs to change with it:
 
-Example 1: Date reads as "8/2" rather the "February 8th."
+Example 1: Date reads as "8/2" rather than "February 8th."
 Example 2: Changing image from flag to checkmark introduces the "selected" trait.
 Example 3: Missing values from accessibility rotors.
 
-Accessibility snapshot library shows labels in the preview.
+Accessibility snapshot library shows labels in the preview with `.accessibilityPreview(size:)`.
+Can be used in diffs to quickly check accessibility changes in code review.
 
 ## Links
 

@@ -16,7 +16,7 @@ For situations where a custom control meaningfully enhances the user experience,
 
 Choose between built-in and custom controls.
 
-Create a custom control that is great for developer and users.
+Create a custom control that is great for developers and users.
 
 Consider users to ensure familiarity.
 
@@ -49,10 +49,10 @@ Demo lesser-used SwiftUI details
 Layout calculation is done locally:
 1. Container view proposes view size to its subviews.
 2. Subview responds with its preferred size.
-3. Layout is recursize
+3. Layout is recursive
 
 Different views behave differently:
-Color: claims what's offered.
+Colour: claims what's offered.
 Image: claims actual size regardless of what is available
 Text: Truncates if space is too small. If larger, only claims the space it needs.
 
@@ -61,11 +61,11 @@ You can create custom layouts using the `Layout` protocol.
 
 ### Add animations
 
-Be careful- too much animation can be overwhelming.
+Be careful – too much animation can be overwhelming.
 
 Rope animation
 
-add layout value:
+Use `LayoutValueKey` to transport additional properties to subview proxies:
 ```
 extension LayoutSubview {
     var isExpanded: Bool {
@@ -74,7 +74,7 @@ extension LayoutSubview {
 }
 ```
 
-Custom containers..
+Custom containers...
 Group: content
 
 ### Finish the control
@@ -84,11 +84,19 @@ Evaluate accessibility
 - Prefers cross-fade
 
 Adopt Liquid Glass
-- GlassEffectContainer..
+- GlassEffectContainer...
 
 
 Style toggles:
 - add `.radial` style to menu
+
+### Conclusion
+
+- A small number of custom controls can make a difference if done right
+- Follow the SwiftUI API to make developers feel at home
+- Leverage custom layouts
+- Add restrained animation
+- Consider the users
 
 ## Links
 

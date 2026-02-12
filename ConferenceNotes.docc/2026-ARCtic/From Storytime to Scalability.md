@@ -22,8 +22,10 @@ Growing the team through a sustained period of growth.
 
 Launched as Kickstarter in 2019 with a launch in 2020.
 
-Grown from 30k -> 1.2 million monthly users.
+Grown from 30k → 1.2 million monthly users.
 Crash-free rate, and user ratings have stayed high during this period.
+
+Market viability proven → freedom to think longer term: architecture, testing, shared standards and design system.
 
 Started by optimising for speed, but not planning for an uncertain future.
 
@@ -47,21 +49,21 @@ Lessons learnt:
 Userbase has almost doubled each Christmas: peak activation of 4-5 players every second.
 
 Memory doesn't scale: documentation does.
+Meeting notes by AI stored centrally.
 Make space for tech debt, or tech debt will make space for itself.
 
 Tooling:
-- project file pain
-- modularisaton
+- XcodeGen for project file pain (Tuist was too heavy, but might be more useful with modularisation)
+- modularisation
 - localisation
 
-Considered Tuist but it was over-the-top for requirements at the time.
-
-Slack -> Zapier (adds device UUIDs to profiles) -> fastlane.
+Slack → Zapier (adds device UUIDs to profiles) → fastlane.
 
 Build the team you'll need next year.
 Create a culture with learning time for junior developers.
 
 Scaling carefully: shared ownership, shared engineering principles.
+Make sure all teams get roughly the same workload.
 Better cross-functional alignment.
 
 ## Links

@@ -140,4 +140,5 @@ You need to know what you want.
 
 ## Links
 
+- [Rob Napier](https://cocoaphony.micro.blog/)
 - [Slides](https://github.com/rnapier/ai-what)
