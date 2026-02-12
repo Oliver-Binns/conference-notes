@@ -8,7 +8,7 @@ John Sundell
 
 ## Abstract
 
-When adopting SwiftUI, it's very common to mix it with UIKit, either to be able to use existing UIKit components, to work around SwiftUI issues and missing features, or to handle tasks like navigation and coordination. In this talk, John will explore how we can make the most out of the SwiftUI + UIKit interoperability APIs, how to ensure that SwiftUI's layout system works well with tools like Auto Layout, how pass configuration properties, events, and data between the two UI frameworks in a smooth way, and much more.
+When adopting SwiftUI, it's very common to mix it with UIKit, either to be able to use existing UIKit components, to work around SwiftUI issues and missing features, or to handle tasks like navigation and coordination. In this talk, John will explore how we can make the most out of the SwiftUI + UIKit interoperability APIs, how to ensure that SwiftUI's layout system works well with tools like Auto Layout, how to pass configuration properties, events, and data between the two UI frameworks in a smooth way, and much more.
 
 ## Key Takeaways
 
@@ -34,7 +34,7 @@ SwiftUI → UIHostingController / UIHostingConfiguration → UIKit
 
 ### Connecting SwiftUI data to UIKit based controls
 
-Be sure to only create the UIView in the makeUIView function, and only update the UIView in the updateUIView funtion
+Be sure to only create the UIView in the makeUIView function, and only update the UIView in the updateUIView function
 
 ```swift
 struct TextView: UIViewRepresentable {
@@ -52,7 +52,7 @@ struct TextView: UIViewRepresentable {
 
     ...
     func makeCoordinator() -> Coordinator {
-        Coordiantor()
+        Coordinator()
     }
 }
 }
@@ -66,7 +66,7 @@ extension TextView {
 
 ### Connecting UIKit data model to SwiftUI views
 
-Make our model class obserable:
+Make our model class observable:
 ```swift
 @Observable
 final class User {
@@ -187,7 +187,7 @@ View is cut off at the bottom because `UIHostingController` always avoids safe-a
 sheet.safeAreaRegions.remove(.container)
 ```
 
-passs in the safe Area insets to handle scroll view
+Pass in the safe area insets to handle scroll view
 
 ## Links
 

@@ -8,7 +8,7 @@ Michael Flarup
 
 ## Abstract
 
-After two decades of building everything from app icons to books to games, I've learned that what lasts isn't efficiency or optimization, but the details that spark joy. In this talk I'll share stories from my own work to show how personality and emotional design turn ordinary products into memorable ones, and why that extra effort matters.
+After two decades of building everything from app icons to books to games, I've learned that what lasts isn't efficiency or optimisation, but the details that spark joy. In this talk I'll share stories from my own work to show how personality and emotional design turn ordinary products into memorable ones, and why that extra effort matters.
 
 ## Key Takeaways
 
@@ -39,18 +39,18 @@ Smile-driven development: optimise for smiles.
 
 Examples:
 - PocketShelf: membership card that you can sign.
-- Captions: Film style packages for presets.
+- Captions: Film-style packages for presets.
 - DarkNoise: App Icons created by Charlie's young kids.
 - One Sec: Team photo gallery carousel.
 - Helm: "Just kidding, Helm will remember you are logged in."
 
 ### The iOS/macOS **App Icon Book**
 
-**Lesson 4**: Over invest in first impressions
+**Lesson 4**: Over-invest in first impressions
 
 Iridescent front cover.
 
-The app icon is a user's first impressions.
+The app icon is a user's first impression.
 First impressions decide whether anything else matters.
 
 **Lesson 5**: Design the Aftermoment
@@ -59,21 +59,21 @@ People remember the unexpected and how things end.
 
 App Icon colouring book.
 Vintage box art for software.
-Atari style artwork for apps.
+Atari-style artwork for apps.
 Enamel pins.
 
 ### DinoLords
 
 **Lesson 6**: Make decisions only you would make.
 
-Example: viking peeing on fallen soldier.
+Example: Viking peeing on fallen soldier.
 
 Be opinionated and encode those opinions into your products.
 If anyone could have made this decision, it probably won't be remembered.
 
 **Lesson 7**: Orchestrate emotional payoff.
 
-Understand what the user is emotionally investing in then deliberately pay if off.
+Understand what the user is emotionally investing in then deliberately pay it off.
 Don't just ship features, orchestrate moments.
 
 You are absolutely **not** guaranteed success.

@@ -8,13 +8,15 @@ Danijela Vrzan
 
 ## Abstract
 
-SwiftUI has redefined the way we build user interfaces across Apple platforms. While its declarative syntax is powerful, it's not without challenges. In this talk, we will dive into the common frustrations developers face when using SwiftUI, such as unexpected behavior and the constraints of state management. Using real-world examples, we'll highlight these challenges and offer practical strategies to overcome them, emphasizing the importance of breaking down views into smaller components.
+SwiftUI has redefined the way we build user interfaces across Apple platforms. While its declarative syntax is powerful, it's not without challenges. In this talk, we will dive into the common frustrations developers face when using SwiftUI, such as unexpected behaviour and the constraints of state management. Using real-world examples, we'll highlight these challenges and offer practical strategies to overcome them, emphasising the importance of breaking down views into smaller components.
 
 You'll leave equipped to navigate SwiftUI more effectively, leveraging its strengths and transforming frustrations into opportunities for better app design and a smoother user experience.
 
 ## Key Takeaways
 
 #### Some key tips:
+
+- onAppear
 
 - Keyboard toolbar
 
@@ -30,6 +32,7 @@ Fix by attaching to the upper-most view.
 #### Flash updated regions
 
 Xcode → Debug → View Debugging → Rendering → Flash Updated Regions
+Instruments → SwiftUI (# of re-renders)
 
 Only works on a real device.
 
@@ -40,7 +43,7 @@ It's really important to split SwiftUI views into separate scopes: extract into 
 
 ### The Illusion of Interaction
 
-Modifiers change behaviour- not just the appearance.
+Modifiers change behaviour – not just the appearance.
 You should design for the behaviour and then modify it.
 
 #### Example 1
@@ -49,7 +52,7 @@ Content shape - rectangle.
 
 #### Example 2
 
-Hold-down button works, even though it is disabled..
+Hold-down button works, even though it is disabled.
 On-tap gesture modifier intercepts the button action: use button action.
 
 ### Sometimes... the problem really is SwiftUI...

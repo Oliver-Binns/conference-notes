@@ -14,13 +14,14 @@ Ever wondered what Apple keeps behind the velvet rope? Let's sneak a peek at pri
 
 ### Trying to recreate the camera app in SwiftUI
 
-Internal SFSymbols are present in the simulator private frameworks
+Internal SFSymbols are present in the simulator private frameworks.
+Can be explored with SF Catalog Tinkerer.
 `SFSCoreGlyphsBundle`
 `camera.nightmode`
 
 #### How to use a private Objective-C API?
 
-Declare the header-file of the private APIs and it should compile:
+Declare the header file of the private APIs and it should compile:
 `#import "_UIAssetManager.h"`
 
 explicitly:
@@ -39,18 +40,18 @@ Class bundleClass = NSClassFromString(@"SFSCoreGlyphsBundle");
 `YourObject+Private.h`
 `YourObject.m`
 
-Compile: we only get the public headers file.
+Compile: we only get the public header files.
 Can't find it in the shipped binary.
 Could find it in DYLD_SHARED_CACHE
 
 
-Or.. we can disassemble the simulator framework?
+Or... we can disassemble the simulator framework?
 `class-dump`: recover Objective-C headers from a compiled binary? Broken in iOS 15
 
-`ipsw` iOS / macOS research swiss Army knife
+`ipsw` iOS / macOS research Swiss army knife
 
 
-Or even easier at runtime:
+Or even easier at runtime using Runtime Browser:
 
 ```
 objc_copyClassList()
@@ -76,13 +77,23 @@ Swift doesn't have header files? So how do we find private Swift APIs?
 
 `swiftmodule`:
  contains a file for each architecture (swiftinterface)
-`@_spi` private swift interface
+`@_spi` private swift interface (available in `.private.swiftinterface`)
 
 Some APIs that are not public and not documented do end up in the swift interface:
 
-TBD file (Text-Base stub)
+TBD file (Text-Base stub) contains mangled names.
+`swiftdemangle` can clean them up.
+Runtime Viewer finds them at runtime.
 
-`swiftdemangle`?
+#### How to use a private Swift API?
+
+`@_silgen_name`
+
+### Packages by Quentin
+
+- Private Symbols
+- `CAFilterBuiltins`
+- QuartzMore
 
 ## Links
 

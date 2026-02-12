@@ -31,7 +31,7 @@ An AI is a terrible computer, the same way a human is a terrible computer.
 Context is part of the model, it's baked in when the model is created.
 
 ### Context has very little structure.
-There's no deep distiction between prompts and other inputs (documents), which leads to prompt injection and confusion.
+There's no deep distinction between prompts and other inputs (documents), which leads to prompt injection and confusion.
 
 ### Infinite interns:
 
@@ -40,7 +40,7 @@ They're bright, work remotely, but next week you get a new set of interns.
 **How should you manage them?**
 
 Tell the AI how the system works.
-You know the system best, you should do this- or at the very least review the content and correct it.
+You know the system best, you should do this – or at the very least review the content and correct it.
 
 
 ### AI does not have "memory"
@@ -49,7 +49,7 @@ Not like human memory.
 
 Humans can juggle context. AI does not.
 
-AI does not know when to do a toolcall because it does not know when it doesn't know something.
+AI does not know when to do a tool call because it does not know when it doesn't know something.
 
 ### AI is leverage
 
@@ -78,9 +78,13 @@ You saved a lot of time writing the code, so you should use some of that time pr
 
 ### "I felt faster" is not data.
 
+### Prompt enhancers mostly just make prompts longer, not better.
+
 ### It unlocks projects I wouldn't have done
 
 Try out different approaches to things very quickly to see which is best.
+Find bug sources.
+Add nice features that otherwise wouldn't be built.
 
 ### Small(er) bytes
 

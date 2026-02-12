@@ -14,21 +14,21 @@ What started as an experiment for myself, became a $150k MRR project over the ye
 
 How did I get there?
 
-I will show you my strategies and how I took advantage of being indie to marketize my project to a broader audience.
+I will show you my strategies and how I took advantage of being indie to market my project to a broader audience.
 
 ## Key Takeaways
 
 ### Why is it important to keep investors out?
 
 You will end up having to prioritise profit over user impact.
-VC Money leads to enshitification.
+VC Money leads to enshittification.
 
 Impact & users > profit.
 
 We need to strike a balance between quality and visibility.
 You need both.
 
-### How to get started?
+### Quality
 
 Solving my own problems.
 
@@ -37,9 +37,40 @@ Solving my own problems.
 2 days: TestFlight version to send to friends.
 2 weeks: App Store availability.
 
-Ship ASAP.
+Ship ASAP and charge for it immediately.
+Use your app! (Dogfooding)
+Ask yourself: do you enjoy your app? Do your friends and early customers?
+If yes, proceed and dedicate more time. If no, abort early.
 
-### Don't make ads - tell interesting stories!
+### Scaling
+
+Competition has money, you don't.
+There comes a point where you put in 18-hour workdays.
+With that will come money and with it you can and should hire employees:
+Designer, Coder, Customer Service, Marketing.
+
+### Visibility
+
+Brand it visibly as an indie app.
+Show your face! Remain authentic!
+Privacy, Quality, Native, Fast → everything a VC-backed app hasn't.
+
+### Discovery
+
+Takes place across social media. No ads.
+Tell interesting stories involving the app.
+Idea & Authenticity > Quality.
+Don't post stories for the sake of content.
+
+Story Structure:
+1. Hook
+2. Fulfil it with one killer feature
+3. Tell the story
+
+### Other Tips
+
+- Collaborate with researchers
+- Collaborate with other indie apps
 
 ## Links
 

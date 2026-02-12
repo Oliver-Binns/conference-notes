@@ -8,7 +8,7 @@ Dan Wood
 
 ## Abstract
 
-Maintaining a clean, well-organized codebase becomes increasingly challenging as projects grow and as more people try vibe coding. This talk explores how to leverage static analysis tools like Periphery to not only identify unused code, but to actively guide better code organization and encapsulation practices. We'll start with an introduction to Periphery and its benefits, then demonstrate how extending it with custom analysis and visualization can help developers identify naming inconsistencies, understand hierarchical relationships between SwiftUI views, and make informed decisions about file organization. With author's new PeripheryTree, we'll see how visualizing code relationships can reveal opportunities for better encapsulation, suggest file reorganization based on view hierarchies, and ultimately help maintain a cleaner, more maintainable codebase.
+Maintaining a clean, well-organised codebase becomes increasingly challenging as projects grow and as more people try vibe coding. This talk explores how to leverage static analysis tools like Periphery to not only identify unused code, but to actively guide better code organisation and encapsulation practices. We'll start with an introduction to Periphery and its benefits, then demonstrate how extending it with custom analysis and visualization can help developers identify naming inconsistencies, understand hierarchical relationships between SwiftUI views, and make informed decisions about file organisation. With author's new PeripheryTree, we'll see how visualizing code relationships can reveal opportunities for better encapsulation, suggest file reorganisation based on view hierarchies, and ultimately help maintain a cleaner, more maintainable codebase.
 
 ## Key Takeaways
 
@@ -34,7 +34,8 @@ It can report:
 Cleaning up codebase, including junk left behind from vibe-coding.
 Reduces technical debt.
 
-TreeSwift is a build on top of this to provide a UI: https://github.com/danwood/Treeswift
+TreeSwift is built on top of this to provide a UI: https://github.com/danwood/Treeswift
+TreeSwift can autofix (Periphery can't) and can ignore warnings.
 
 #### Strategies to use:
 
@@ -48,7 +49,9 @@ TreeSwift is a build on top of this to provide a UI: https://github.com/danwood/
 
 ### Encapsulation
 
-Periphery includes functionality to suggest encapsulation improvements;
+Keep access levels as private as possible. AI is really bad at this!
+
+Periphery includes functionality to suggest encapsulation improvements ([PR](https://github.com/peripheryapp/periphery/pull/1042)):
 
 - Identify internal declarations that should be more private
 - Identify fileprivate declarations that should be private

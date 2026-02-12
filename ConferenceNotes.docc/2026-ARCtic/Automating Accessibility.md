@@ -12,7 +12,7 @@ Making your app accessible is crucial to ensuring that a wide array of users can
 
 Validating that your accessible experiences are working the way you expect can often be an arduous process, sometimes even involving running your app on physical devices. Ensuring that those experiences don't regress is even more of a challenge.
 
-In this talk, Soroush will discuss tools for rapidly iterating on accessibility code, easily spotting bugs, and ensuring that accessible interactions stay working the way the way you expect, so that all your users can get the most out of your app.
+In this talk, Soroush will discuss tools for rapidly iterating on accessibility code, easily spotting bugs, and ensuring that accessible interactions stay working the way you expect, so that all your users can get the most out of your app.
 
 ## Key Takeaways
 

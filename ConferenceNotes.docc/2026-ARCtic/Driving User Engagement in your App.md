@@ -34,11 +34,11 @@ Show progress, not just totals.
 Social visibility
 
 Endowment effect - users overvalue what they already have.
-→ Current streak is irreplaceable, even though an new one can be started.
+→ Current streak is irreplaceable, even though a new one can be started.
 
 ### Achievements:
 
-Reward behaviours and signal confidence.
+Reward meaningful behaviours and signal competence.
 Social visibility: visible enough to inspire, subtle enough to avoid stress.
 Pair them with real-life milestones.
 
@@ -54,24 +54,28 @@ Reinforce the behaviour that you want to encourage.
 
 ### Visual prominence
 
-High contract elements demand user attention.
+High contrast elements demand user attention.
 Warmth signals urgency.
 Dynamic colour can act as a reward, reinforcing the habit.
 
 ### The numbers
 
-**Streaks**: 10% increase
-**Achievements**: 22% increase
+**Variable Rewards**: 20-50% increase
+**Streaks**: 10-50% increase
+**Achievements**: 22-30% increase
 **Push**: 26% increase in app opens
 **Push + Badges**: 88% increase in app opens
+**Visual Prominence**: 35% increase
 
-### Impact
+### Engagement or Enslavement?
 
 > ... I will not attempt to manipulate, obscure judgement or seek personal gain from anyone with whom I may deal. - Rudyard Kipling
-> You become responsble forever, for what you have tamed. - Antoine Saint Expury.
+> You become responsible forever, for what you have tamed. - Antoine de Saint-Exupéry.
 
+4h 37m daily average phone usage.
+6h 27m for Gen Z in the US.
 Average person picks up their phone 186 pick-ups per day: 1 pick-up every 8 minutes.
-18% of American 8 year olds own a smart-phone.
+18% of American 8-year-olds own a smartphone.
 
 - Reduced attention
 - Mental fatigue
@@ -85,6 +89,8 @@ Improved mood when screen time is reduced.
 - Shorter sleep duration and poorer sleep quality
 - Increased myopia risk
 - Eye strain and visual fatigue
+- Daytime fatigue (starts a loop!)
+- Vision effects also measurable
 
 70% of users spend too much time on their devices. (Deloitte)
 47%
@@ -106,7 +112,8 @@ Focus on outcomes, not engagement.
 Track products relative to goals.
 
 | | X | Y |
-| Education | Daily Active Users, StreakLength| Improvement, Mastery, Skill retention |
+| --- | --- | --- |
+| Education | Daily Active Users, Streak Length | Improvement, Mastery, Skill retention |
 | Banking | Session frequency, time in app | task completion rate, error rate, support requests |
 | Social media | Daily opens, time in app | social satisfaction, meaningful interactions |
 | Games | | |
@@ -117,7 +124,7 @@ Reward mastery.
 Use milestones instead of streaks.
 Summarise accomplishments: encourage the user to leave satisfied.
 
-### Anti-addition features
+### Anti-addiction features
 
 Encourage leaving intentionally (Slack: you're all caught up)
 Snooze notifications

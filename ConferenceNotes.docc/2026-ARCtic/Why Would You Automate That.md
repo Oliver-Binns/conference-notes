@@ -36,31 +36,35 @@ Apple owned.
 *The Bad*:
 
 - Limited customisation
-- Painfully Slow
+- Painfully slow
 - 25 free hours
 
 #### Fastlane & Friends
 
+Services: GitHub Actions, Codemagic, Circle CI, GitLab CI, Bitrise
+
 - Docs everywhere
 - Portable
 - Test locally
-- Nice UIs (Bitrise, CodeMagic)
+- Nice UIs (Bitrise, Codemagic)
 
 *The bad*:
 
 - Required Ruby knowledge
 - Maintenance overhead
 - Debugging is difficult
-- Each CI has their own configuration (usually yaml based)
+- Each CI has its own configuration (usually YAML-based)
 
 ### AI to the rescue?
 
-AI can generate Fastfile ations, CI/CD YAML and even entire automation scripts.
+AI can generate Fastfile actions, CI/CD YAML and even entire automation scripts.
+AI is very good with the downsides of Fastlane (learning curve, maintenance, debugging, configuration).
 
 ### Mix & match
 
 Use each tool for what it does best:
-- Fill gaps, Fastlane can overcome Xcode's
+- Xcode for delivery, Fastlane for the rest
+- Fill gaps, Fastlane can overcome Xcode's limitations
 - Maximise usage of multiple free tiers
 
 ### Don't overdo it
@@ -74,22 +78,24 @@ Things you don't want to do: uninteresting or frustrating tasks
 Things you don't care about: necessary tasks that don't contribute to your product
 Things you forget: incrementing build number
 
-**Example- setting up App Store listing:**
+**Example – setting up App Store listing:**
 
+Screenshots: Snapshots → FrameIt → Deliver
 UI test target: create new UI tests
 Fastlane snapshot: run `fastlane init`
-Deliver initialisation: 
-Local validation: 
+Deliver initialisation:
+Local validation:
 On-demand trigger: enable it to be run on the CI
 
 Run everything locally until it's boring (no issues occur)
 
 Other examples:
-- App Store review task management and draft responses
+- App Store reviews → Backlog: Connect API → AI → Issue Creation
 - Automated localisations
 - Dead code detection
-- Code signing using Fastlane matc
+- Code signing using Fastlane match
 - Effortless release notes
+- Locally: Hooks, Formatting
 
 ## Links
 

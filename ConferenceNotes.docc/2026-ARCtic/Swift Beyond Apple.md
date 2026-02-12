@@ -8,7 +8,7 @@ Joannis Orlandos
 
 ## Abstract
 
-Swift is no longer an Apple-only language. It's used by both Apple and others for a variety of purposed, including Linux, Cloud, Embedded Systems and Android.
+Swift is no longer an Apple-only language. It's used by both Apple and others for a variety of purposes, including Linux, Cloud, Embedded Systems and Android.
 
 In this talk we'll look at the status of Swift on non-Apple platforms. We'll demonstrate what tools are available, what works great today and what you can expect to improve.
 
@@ -28,7 +28,7 @@ Kotlin Native bridges through Objective-C: you lose value semantics - which is w
 
 - FreeBSD
 - OpenBSD
-- Linux-
+- Linux
 - Windows
 - Embedded
 - WASM
@@ -37,6 +37,17 @@ Kotlin Native bridges through Objective-C: you lose value semantics - which is w
 Swift is safe, fast and easy.
 
 Swift is interoperable with C, C++ and Objective-C.
+Swift is the only language that can talk to C++, C, Objective-C, Java, Node.js and Python.
+
+### Server Side
+
+Vapor
+Hummingbird: Spec Driven Development with OpenAPI and gRPC
+
+### Windows
+
+Example: Arc Browser
+SwiftGodot
 
 ### Android
 
@@ -44,7 +55,7 @@ Write business logic once: state machine, network requests.
 Compiles to native code: not a different compilation mode.
 All the power of Swift, on Android.
 
-~80% of Linux package support Android.
+~80% of Linux packages support Android.
 ~30% of all Swift Packages support Android.
 
 #### Tooling
@@ -55,16 +66,22 @@ Skip: bring SwiftUI views to Android
 
 ### Embedded Swift
 
-Doesn't support Foundation, typed throws or 
+Not available: Unicode, Foundation, throws, any Protocol.
 
-Supports Microcontrollers: including Apple's Secure Enclave, already in production
-WebAssembly
+Supports Microcontrollers: including Apple's Secure Enclave, already in production.
+Already in production: Touch ID on MacBook.
 
 ### WebAssembly
 
-Run Swift in web browsers: ElementaryUI
-Cloud-Hosted Plugins
-Microcontrollers
+Run Swift in web browsers.
+Cloud-Hosted Plugins.
+Microcontrollers.
+Examples: ElementaryUI and JavaScriptKit.
+
+### Wendy
+
+Embedded made easy.
+`wendy run` on CLI for cross-compilation.
 
 ## Links
 
