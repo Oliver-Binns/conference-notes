@@ -16,4 +16,77 @@ Through real-world examples, war stories, and the occasional existential crisis 
 
 ## Key Takeaways
 
--
+- Time
+- Consistency
+- Security
+- It’s Cool
+
+### Common Automations
+
+- Unit Tests on PRs
+- Build on merge to main
+- Auto TestFlight releases
+
+### Choosing a Provider
+
+#### Xcode Cloud
+
+Apple owned.
+
+*The Bad*:
+
+- Limited customisation
+- Painfully Slow
+- 25 free hours
+
+#### Fastlane & Friends
+
+- Docs everywhere
+- Portable
+- Test locally
+- Nice UIs (Bitrise, CodeMagic)
+
+*The bad*:
+
+- Required Ruby knowledge
+- Maintenance overhead
+- Debugging is difficult
+- Each CI has their own configuration (usually yaml based)
+
+### AI to the rescue?
+
+AI can generate Fastfile ations, CI/CD YAML and even entire automation scripts.
+
+### Mix & match
+
+Use each tool for what it does best:
+- Fill gaps, Fastlane can overcome Xcode's
+- Maximise usage of multiple free tiers
+
+### Don't overdo it
+
+Diminishing returns:
+Automating a task that takes 5 minutes once a month might cost more than it saves.
+
+### Identify prime candidates for automation:
+
+Things you don't want to do: uninteresting or frustrating tasks
+Things you don't care about: necessary tasks that don't contribute to your product
+Things you forget: incrementing build number
+
+**Example- setting up App Store listing:**
+
+UI test target: create new UI tests
+Fastlane snapshot: run `fastlane init`
+Deliver initialisation: 
+Local validation: 
+On-demand trigger: enable it to be run on the CI
+
+Run everything locally until it's boring (no issues occur)
+
+Other examples:
+- App Store review task management and draft responses
+- Automated localisations
+- Dead code detection
+- Code signing using Fastlane matc
+- Effortless release notes
